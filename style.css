@@ -49,7 +49,7 @@ h2 {
     font-family: 'Lobster Two', cursive;
 }
 
-#bio {
+#bio,#Videos,#work,#writings {
     padding: 50px;
     text-align: center;
 }
@@ -84,6 +84,15 @@ h2 {
     padding-bottom: 5px;
     font-family: fantasy;
     font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: aquamarine;
+}
+html{
+    scroll-behavior: smooth;
 }
 .link:hover{
     background-color: black;
